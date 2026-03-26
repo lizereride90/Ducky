@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bridge-guard",
+    "title": "Bridge Guard Duck",
+    "prompt": "A stern duck blocks the only bridge across the swamp.",
+    "choices": ["offer-bread", "quack-back", "sneak-around"]
+  },
+  {
+    "id": "glowing-clearing",
+    "title": "Glowing Clearing",
+    "prompt": "Fireflies swirl around a mossy stone covered in runes.",
+    "choices": ["follow-fireflies", "hug-tree", "take-nap"]
+  },
+  {
+    "id": "lost-map",
+    "title": "Lost Map",
+    "prompt": "Your map is smudged; a sage duck appears, offering a trade.",
+    "choices": ["trade-map", "play-flute", "sneak-around"]
+  },
+  {
+    "id": "feather-market",
+    "title": "Feather Market",
+    "prompt": "A pop-up bazaar run by ducks sells charms and shiny feathers.",
+    "choices": ["collect-feathers", "offer-bread", "call-radio"]
+  },
+  {
+    "id": "storm-warning",
+    "title": "Storm Warning",
+    "prompt": "Clouds roll in; trees begin to whistle ominously.",
+    "choices": ["hug-tree", "take-nap", "play-flute"]
+  },
+  {
+    "id": "hidden-raft",
+    "title": "Hidden Raft",
+    "prompt": "You spot a raft tangled in reeds with a duck flag.",
+    "choices": ["quack-back", "collect-feathers", "follow-fireflies"]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "scenarios": [
+    {
+      "id": "mystic-forest",
+      "name": "Mystic Forest",
+      "blurb": "Foggy woods where ducks whisper riddles."
+    },
+    {
+      "id": "space-station",
+      "name": "Orbital Station",
+      "blurb": "Zero-g corridors full of malfunctioning gadgets."
+    }
+  ]
+}

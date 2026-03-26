@@ -1,0 +1,12 @@
+[
+  {"id": "seal-hatch", "label": "Seal the rattling hatch", "delta": 3, "result": "Airflow stabilizes; ducks applaud."},
+  {"id": "float-through", "label": "Float through the corridor", "delta": 1, "result": "You dodge debris with graceful spins."},
+  {"id": "override-panel", "label": "Override the control panel", "delta": 4, "result": "Systems reboot; alarms hush."},
+  {"id": "duck-dance", "label": "Do the zero-g duck dance", "delta": 2, "result": "Morale soars across the station."},
+  {"id": "vent-coffee", "label": "Vent spilled coffee", "delta": -1, "result": "Sticky droplets slow you down."},
+  {"id": "call-ground", "label": "Call ground control", "delta": 2, "result": "They radio back calm instructions."},
+  {"id": "magnet-boots", "label": "Toggle magnetic boots", "delta": 3, "result": "You gain traction and confidence."},
+  {"id": "space-snack", "label": "Share a space snack", "delta": 1, "result": "Team bonds over dehydrated peas."},
+  {"id": "patch-duct", "label": "Patch the air duct", "delta": 2, "result": "Leak sealed; pressure normalizes."},
+  {"id": "launch-escape", "label": "Prep the escape pod", "delta": -2, "result": "You lose time while running checklists."}
+]

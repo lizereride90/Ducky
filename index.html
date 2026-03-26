@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ducky: Ten Choices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Ducky</p>
+        <h1>Ten choices. Wild outcomes. Keep your score alive.</h1>
+        <p class="lede">Log in, pick a scenario pack, and ride through 10 unpredictable events. Every choice shifts your score and the leaderboard.</p>
+      </div>
+      <div class="hero-badge">10 turns</div>
+    </header>
+
+    <section class="panel-grid">
+      <article class="card">
+        <h2>Player & Scenario</h2>
+        <label class="field">Name
+          <div class="field-row">
+            <input id="playerName" type="text" placeholder="Captain Duck" autocomplete="nickname" />
+            <button id="savePlayer" class="pill">Save</button>
+          </div>
+        </label>
+        <label class="field">Scenario Pack
+          <select id="scenarioSelect"></select>
+        </label>
+        <button id="startGame" class="primary" disabled>Start 10-Choice Run</button>
+        <p class="hint">Data is stored locally in your browser. To add more scenarios, drop folders into <code>scenarios/</code> and update <code>scenarios/index.json</code>.</p>
+      </article>
+
+      <article class="card" id="leaderboardCard">
+        <div class="card-head">
+          <h2>Leaderboard</h2>
+          <span class="sub">Top scores per pack (local)</span>
+        </div>
+        <div class="table" id="leaderboard"></div>
+      </article>
+    </section>
+
+    <section class="card" id="gameCard">
+      <div class="status-bar">
+        <div><span class="label">Player</span><span id="statusPlayer">—</span></div>
+        <div><span class="label">Pack</span><span id="statusPack">—</span></div>
+        <div><span class="label">Turn</span><span id="statusTurn">0 / 10</span></div>
+        <div><span class="label">Score</span><span id="statusScore">0</span></div>
+      </div>
+      <div class="scenario">
+        <p class="eyebrow" id="scenarioId">Pick a pack and start</p>
+        <h3 id="scenarioTitle">Waiting to begin</h3>
+        <p id="scenarioPrompt">Hit "Start 10-Choice Run" to draw a random event.</p>
+      </div>
+      <div class="choices" id="choices"></div>
+      <div class="log" id="log"></div>
+    </section>
+  </main>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

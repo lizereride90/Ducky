@@ -1,0 +1,12 @@
+[
+  {"id": "quack-back", "label": "Quack back confidently", "delta": 2, "result": "Your confidence impresses the flock."},
+  {"id": "offer-bread", "label": "Offer stale bread", "delta": 3, "result": "They accept tribute and guide you onward."},
+  {"id": "sneak-around", "label": "Sneak around the reeds", "delta": 1, "result": "You slip by, though you get a bit muddy."},
+  {"id": "follow-fireflies", "label": "Follow the fireflies", "delta": 4, "result": "They light a shortcut to hidden treasure."},
+  {"id": "take-nap", "label": "Take a quick nap", "delta": -1, "result": "You wake refreshed but slightly behind."},
+  {"id": "collect-feathers", "label": "Collect shiny feathers", "delta": 2, "result": "They trade you luck for the shiny haul."},
+  {"id": "play-flute", "label": "Play a wooden flute", "delta": 3, "result": "The melody charms the wild ducks."},
+  {"id": "call-radio", "label": "Radio for help", "delta": -2, "result": "Static blares; you startle a hawk."},
+  {"id": "hug-tree", "label": "Hug the ancient tree", "delta": 1, "result": "It hums and heals your worries."},
+  {"id": "trade-map", "label": "Trade your map", "delta": 5, "result": "A sage duck gives you secret directions."}
+]

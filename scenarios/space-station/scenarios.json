@@ -1,0 +1,38 @@
+[
+  {
+    "id": "floating-tools",
+    "title": "Floating Tools",
+    "prompt": "A wrench and a rubber duck spin toward a control panel.",
+    "choices": ["float-through", "magnet-boots", "override-panel"]
+  },
+  {
+    "id": "leaky-duct",
+    "title": "Leaky Air Duct",
+    "prompt": "Pressure is dropping near a duct with feather stickers on it.",
+    "choices": ["patch-duct", "seal-hatch", "call-ground"]
+  },
+  {
+    "id": "mess-hall",
+    "title": "Mess Hall Chaos",
+    "prompt": "Packets of peas and ducks drift everywhere in the mess hall.",
+    "choices": ["space-snack", "vent-coffee", "duck-dance"]
+  },
+  {
+    "id": "pod-check",
+    "title": "Escape Pod Check",
+    "prompt": "Warning lights flash on the escape pod door.",
+    "choices": ["launch-escape", "override-panel", "seal-hatch"]
+  },
+  {
+    "id": "gravity-test",
+    "title": "Gravity Test",
+    "prompt": "Artificial gravity flickers between rooms.",
+    "choices": ["magnet-boots", "float-through", "duck-dance"]
+  },
+  {
+    "id": "antenna-call",
+    "title": "Antenna Call",
+    "prompt": "Ground control pings for a status update.",
+    "choices": ["call-ground", "patch-duct", "space-snack"]
+  }
+]
